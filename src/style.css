@@ -34,10 +34,11 @@ a:hover {
 
 body {
   margin: 0;
+  padding: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+/*   min-width: 320px;
+  min-height: 100vh; */
 }
 
 h1 {
@@ -69,10 +70,12 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
   text-align: center;
+}
+
+.container {
+  width: 100vw;
 }
 
 @media (prefers-color-scheme: light) {
