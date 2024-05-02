@@ -1,26 +1,15 @@
 <template>
     <footer id="footer" class="footer">
-      <div class="container">
-        <p>Contato: contato@example.com</p>
-      </div>
-    </footer>
+  <div class="content has-text-centered">
+    <p>
+      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
+      The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+      website content is licensed
+      <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        >CC BY NC SA 4.0</a
+      >.
+    </p>
+  </div>
+</footer>
   </template>
-  
-  <style scoped>
-  .footer {
-    background-color: #e0b0ff;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  p {
-    margin: 0;
-  }
-  </style>
-  

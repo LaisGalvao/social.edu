@@ -33,12 +33,11 @@ export default {
 </script>
 
 <template>
- <div class="container">
+ <div class="is-flex-direction-row">
   <TopbarComponent />
   <HelloWorld  />
   <SectionAbout />
   <SectionPartners />
-  <FooterComponent />
   <FooterComponent style="background: #06283f;" />
 
   <button @click="scrollToTop" class="back-to-top" v-show="showBackToTop">Voltar ao Topo</button>

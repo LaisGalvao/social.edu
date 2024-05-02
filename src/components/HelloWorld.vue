@@ -1,6 +1,8 @@
 <template>
-  <div class="jumbotron">
-    <p class="message" :class="{ 'fade-in': showText }">📚🤝🏽 Em breve: Social.edu!</p>
+  <div class="hero is-medium">
+    <div class="hero-body">
+      <p class="message" :class="{ 'fade-in': showText }">📚🤝🏽 Em breve: Social.edu!</p>
+    </div>
   </div>
 </template>
 
@@ -12,6 +14,7 @@
 
 .message {
   font-size: 50px;
+  background-color: transparent;
   color: white;
   text-align: center;
   opacity: 0;
